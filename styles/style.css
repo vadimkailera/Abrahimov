@@ -15,17 +15,30 @@
 .header__links-list {
   display: flex;
   flex-direction: row;
-  gap: 32px;
+  gap: 5px;
   list-style: circle;
 }
-.header__links-list-item_no-bullit {
+.header__links-list-item {
   list-style: none;
   text-decoration: none;
+  
+}
+
+.header__social-icon {
+  width: 96px;
+  height: 96px;
+}
+
+.header__social-icon-vk {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
 }
 
 .header__logo {
   display: block;
   width: 148px;
+  
 }
 
 .header__address {
