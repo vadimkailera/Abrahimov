@@ -1,11 +1,11 @@
 .header {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  padding: 92px 50px 96px 50px;
   font-size: 18px;
   font-family: "Raleway", Arial, sans-serif;
   font-style: normal;
+  
 }
 
 .header__menu {
@@ -15,12 +15,10 @@
 .header__links-list {
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 40px;
   list-style: circle;
 }
 .header__links-list-item {
-  list-style: none;
-  text-decoration: none;
   
 }
 
@@ -37,9 +35,8 @@
 
 .header__logo {
   display: block;
-  width: 148px;
-  
-}
+  justify-self: center;
+  }
 
 .header__address {
   max-width: 240px;
