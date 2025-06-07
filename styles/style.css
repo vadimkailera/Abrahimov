@@ -3,9 +3,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   font-size: 18px;
-  font-family: 'Jura', sans-serif;
-  font-style: normal;
-  
+  margin-bottom: 20px;  
 }
 
 .header__menu {
@@ -19,18 +17,7 @@
   list-style: circle;
 }
 .header__links-list-item {
-  
-}
-
-.header__social-icon {
-  width: 96px;
-  height: 96px;
-}
-
-.header__social-icon-vk {
-  width: 50px;
-  height: 50px;
-  margin-top: 15px;
+  font-size: 25px;
 }
 
 .header__logo {
@@ -56,55 +43,31 @@
 
 .cover {
   position: relative;
-  background-image: url(../images/cover.jpg);
-  background-size: cover;
-  width: 1100px;
-  padding: 165px 50px 50px 50px;
+  margin-bottom: 40px;
+  padding: 50px;
+  background-color: green;
 }
 
 .cover__title {
-  display: flex;
-  flex-direction: column;
-  font-size: 100px;
-  letter-spacing: 30px;
-  color: white;
-  gap: 16px;
-}
-
-.aligned-text {
-  align-self: start;
-  justify-self: start;
-  color: white;
-  z-index: 2;
-}
-
-.aligned-text_center {
-  align-self: center;
-  justify-self: center;
-  margin-right: -30px; /*Компенсация межбуквенного интервала*/
-  z-index: 2;
-}
-.aligned-text_right {
-  align-self: end;
-  justify-self: end;
-  margin-right: -30px; /*Компенсация межбуквенного интервала*/
-  z-index: 2;
+  font-size: 50px;
+  color: black;
+  margin-bottom: 20px;
 }
 
 .cover__description {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr min-content;
   align-items: center;
-  margin-top: 106px;
+  justify-content: center;
 }
-
-.cover__description-text {
-  text-transform: uppercase;
-  font-size: 22px;
-  word-spacing: 18px;
-  color: white;
-  font-weight: normal;
-  z-index: 2;
+.video {
+  width: 600px;
+  height: 600px;
+}
+.buy {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
 
 .bet-button {
@@ -118,12 +81,11 @@
   z-index: 2;
 }
 
-/*.lots {
-  
-} не использовал*/
+.lots {
+  margin-bottom: 40px; 
+} 
 
 .lots__heading {
-  margin: 180px 0px 27px 0;
   font-size: 40px;
   text-transform: uppercase;
   text-align: start;
@@ -135,7 +97,6 @@
   list-style: none;
   gap: 25px;
   color: white;
-  margin-right: 24px;
   overflow-x: auto;
   scrollbar-color: #fff #000;
 
@@ -193,49 +154,44 @@
 
 .about {
   display: grid;
-  grid-template-columns: 334px 1fr;
-  margin: 120px 24px 180px 24px;
-  padding: 35px 0px 0px 0px;
-  gap: 25px;
-}
-
-.about__logo {
-  justify-self: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  border-radius: 120px;
-  width: 240px;
-  height: 240px;
-}
-
-.about__logo-image {
-  width: 148px;
-  height: 114px;
+  grid-template-columns: 1fr;
+  margin-bottom: 40px; 
 }
 
 .about__section {
   display: flex;
   flex-direction: column;
-  gap: 24px;
 }
 
 .about__title {
   text-transform: uppercase;
   font-size: 40px;
-  margin-top: 100.5px;
-  margin-bottom: 76px;
 }
 
 .about__text {
   font-size: 20px;
 }
 
+.document {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 70px;
+}
+
+.button-documents {
+  /*width: 150px;*/
+  height: 51px;
+  font-size: 22px;
+  text-transform: uppercase;
+  border: 2px solid currentColor;
+  z-index: 2;
+}
+
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
+  align-items: center;
   padding: 0px 50px;
 }
 
@@ -254,6 +210,8 @@
   flex-direction: column;
   align-items: center;
 }
+
+
 
 .footer__menu-list-item {
   list-style: none;
