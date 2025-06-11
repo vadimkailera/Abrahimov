@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   font-size: 18px;
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
 }
 
 .header__menu {
@@ -23,7 +23,7 @@
 .header__logo {
   display: block;
   justify-self: center;
-  }
+}
 
 .header__address {
   max-width: 240px;
@@ -82,8 +82,8 @@
 }
 
 .lots {
-  margin-bottom: 40px; 
-} 
+  margin-bottom: 40px;
+}
 
 .lots__heading {
   font-size: 40px;
@@ -99,7 +99,6 @@
   color: white;
   overflow-x: auto;
   scrollbar-color: #fff #000;
-
 }
 
 .lots__card-list-item {
@@ -155,7 +154,7 @@
 .about {
   display: grid;
   grid-template-columns: 1fr;
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
 }
 
 .about__section {
@@ -179,7 +178,6 @@
 }
 
 .button-documents {
-  /*width: 150px;*/
   height: 51px;
   font-size: 22px;
   text-transform: uppercase;
@@ -203,15 +201,13 @@
 
 /*.footer__menu {
   
-} не использовал*/
+} */
 
 .footer__menu-list {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-
 
 .footer__menu-list-item {
   list-style: none;
